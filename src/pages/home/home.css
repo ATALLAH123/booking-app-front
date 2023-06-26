@@ -1,0 +1,16 @@
+.homeContainer{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeTitle{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #83c7c7;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
