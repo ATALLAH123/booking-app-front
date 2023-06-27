@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1024px;
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
   gap: 20px;
   text-align: center;
@@ -35,6 +35,15 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
+  .pList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+  }
   .pListItem {
     flex-basis: calc(50% - 10px);
   }
@@ -51,3 +60,4 @@
     font-size: 12px;
   }
 }
+
