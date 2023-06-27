@@ -58,3 +58,69 @@
   color: orange;
   font-size: x-large;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .fpItem {
+    gap: 5px;
+  }
+
+  .fpImg {
+    height: 150px;
+  }
+
+  .fpRating > a {
+    font-size: 16px;
+  }
+
+  .fpRating > span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fpItem {
+    gap: 2px;
+  }
+
+  .fpImg {
+    height: 120px;
+  }
+
+  .fpName {
+    font-size: 14px;
+  }
+
+  .fpCity {
+    font-size: 12px;
+  }
+
+  .fpPrice {
+    font-size: 14px;
+  }
+
+  .fpRating > a {
+    font-size: 14px;
+  }
+
+  .fpRating > span {
+    font-size: 14px;
+  }
+
+  .fontstar {
+    font-size: large;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .featured {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .featuredItem {
+    flex-basis: 50%;
+    max-width: calc(50% - 10px);
+  }
+}
