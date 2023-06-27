@@ -120,3 +120,27 @@
     transform: rotate(1turn);
   }
 }
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .listWrapper {
+    flex-direction: column; /* Stack the list wrapper vertically on smaller screens */
+  }
+
+  .listSearch {
+    margin-top: 10px; /* Adjust the margin-top on smaller screens */
+    position: static; /* Remove sticky positioning on smaller screens */
+  }
+
+  .listResult {
+    margin-top: 20px; /* Add some margin to separate the result section on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .listSearch {
+    border-radius: 0; /* Remove border-radius on smaller screens */
+  }
+}
+
