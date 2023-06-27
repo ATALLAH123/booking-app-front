@@ -1,23 +1,26 @@
-.footer{
+.footer {
   width: 100%;
-  width: 1024px;
+  max-width: 1024px;
   font-size: 12px;
   margin-top: 80px;
 }
 
-.fLists{
+.fLists {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.fList{
+.fList {
   list-style: none;
   padding: 0;
+  flex-basis: 50%;
+  max-width: 50%;
 }
 
-.fListItem{
+.fListItem {
   margin-bottom: 10px;
   color: #003580;
   cursor: pointer;
