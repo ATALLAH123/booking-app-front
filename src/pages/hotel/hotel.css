@@ -187,3 +187,24 @@
     transform: rotate(1turn);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hotelImgWrapper {
+    max-width: 50%; /* Adjust the image wrapper width for smaller screens */
+  }
+
+  .hotelDetails {
+    flex-wrap: nowrap; /* Revert flex-wrap to default for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hotelImgWrapper {
+    max-width: 100%; /* Adjust the image wrapper width for even smaller screens */
+  }
+
+  .hotelDetails {
+    flex-direction: column; /* Stack the hotel details vertically for smaller screens */
+    gap: 10px; /* Adjust the gap between hotel details on smaller screens */
+  }
+}
