@@ -27,3 +27,20 @@
   bottom: 20px;
   left: 20px;
 }
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .featuredItem {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featuredItem {
+    height: 150px;
+  }
+
+  .featuredTitles {
+    bottom: 10px;
+    left: 10px;
+  }
+}
